@@ -28,10 +28,10 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">refactoring</span>
+        <span class="nav__sub-title">refactorings</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "Algorithm" %}
+                    {% if category[0] == "refactoring" %}
                         <li><a href="/categories/algorithm" class="">알고리즘 구현 (with C++) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
